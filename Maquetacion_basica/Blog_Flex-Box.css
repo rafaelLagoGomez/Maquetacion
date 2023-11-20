@@ -1,0 +1,186 @@
+
+
+
+.header {
+    /* border: 1px solid red; */
+    width: 100vw;
+    height: 70px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.menu {
+    /* border: 1px solid white; */
+    display: flex;
+    gap: 350px;
+}
+
+
+.menu_links {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 630px;
+
+}
+
+.card {
+    /* border: 5px solid yellow; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    height: 600px;
+}
+
+.picHome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* max-width: 350px; */
+    /* max-height: 600px; */
+}
+
+.imagenHome {
+    width: auto;
+    height: 100%;
+    max-height: 510px;
+
+}
+
+.textoPicHome{
+    width: auto;
+    height: 100%;
+    max-height: 510px;
+    
+
+}
+
+.texto_titulo {
+    font-size: xx-large;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.texto_info {
+    font-size: medium;
+}
+
+/* --------------------------------   GALERIA */
+
+.containerGaleria {
+    /* border: 5px solid red; */
+    width: 100vw;
+    height: 625px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    /* align-items: flex-start; */
+}
+
+.picGaleria1 {
+    /* border: 5px solid green; */
+    width: 100vw;
+   height: 100%;
+   display: flex;
+   justify-content: flex-start;
+   align-items: flex-start;
+   flex-wrap: wrap;
+   
+}
+
+.im1 {
+    width: 508px;
+    height: 100%;
+    max-height: 350px; 
+}
+
+.im2 {
+    width: 508px;
+    height: 100%;
+    max-height: 350px; 
+}
+
+.im3 {
+    width: 508px;
+    height: 100%;
+    max-height: 350px; 
+}
+
+.im4 {
+    width: 508px;
+    height: 100%;
+    max-height: 300px; 
+}
+
+.im5 {
+    width: 508px;
+    height: 100%;
+    max-height: 300px; 
+}
+
+.im6 {
+    width: 508px;
+    height: 100%;
+    max-height: 300px; 
+}
+
+
+/* --------------------------------   BLOG */
+
+.containerBlog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.tituloBlog {
+
+}
+
+
+.texto_tituloBlog {
+
+
+}
+
+
+.cardBlog {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 1300px;
+    height: 500px;
+
+}
+
+.picBlog {
+    max-height: 500px;
+
+}
+
+.textoPic {
+
+}
+
+.texto_info{
+    
+}
+
