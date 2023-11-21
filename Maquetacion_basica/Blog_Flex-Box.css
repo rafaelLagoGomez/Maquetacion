@@ -103,12 +103,12 @@
 }
 
 .im1 {
-    width: 508px;
+    width: 33%;
     height: 100%;
     max-height: 350px; 
 }
 
-.im2 {
+/* .im2 {
     width: 508px;
     height: 100%;
     max-height: 350px; 
@@ -136,7 +136,7 @@
     width: 508px;
     height: 100%;
     max-height: 300px; 
-}
+} */
 
 
 /* --------------------------------   BLOG */
