@@ -1,0 +1,72 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="webViajes.css">
+	<title>MI AGENCIA DE VIAJES</title>
+</head>
+<body>
+	<main>
+		<header class="header">
+			<a class="nombre-empresa" href="webViajes.html">TRAVELCODENOTCH</a>
+			<nav class="menu">
+				<a class="menu_links" href="webViajes.html">DESTINOS</a>
+				<a class="menu_links" href="webViajes.html">OFERTAS</a>
+				<a class="menu_links" href="webViajes.html">CONTACTO</a>
+			</nav>
+		</header>
+	
+		<section class="contenedor">
+			<div class="bio">
+				<h2>BIO-EMPRESA</h2>
+				<p>Somos una agencia de viajes especializada en ofrecer experiencias únicas y personalizadas a nuestros clientes. Con más de 10 años de experiencia en el sector, hemos ayudado a miles de personas a cumplir sus sueños de viajar por todo el mundo.</p>
+			</div>
+
+			<div class="populares">
+				<h2>Destinos populares</h2>
+				<div class="card">
+					<img class="jpg" src="./fotohawai.jpg" alt="">
+					<h3>Hawai</h3>
+					<p>Desde 1800€</p>
+				</div>
+				<div class="card">
+					<img class="jpg" src="./fotonuevayork.jpg" alt="">
+					<h3>Nueva York</h3>
+					<p>Desde 1400€</p>
+				</div>
+				<div class="card">
+					<img class="jpg" src="./fotolondres.jpg" alt="">
+					<h3>Londres</h3>
+					<p>Desde 800€</p>
+				</div>
+			</div>
+
+			<div class="formulario">
+				<h2>Formulario de contacto</h2>
+				<form>
+					<label for="nombre">Nombre:</label>
+					<input type="text" id="nombre" name="nombre" required>
+					<label for="origen">Origen:</label>
+					<input type="text" id="origen" name="origen" required>
+					<label for="destino">Destino:</label>
+					<input type="text" id="destino" name="destino" required>
+					<label for="personas">Número de personas:</label>
+					<input type="number" id="personas" name="personas" required>
+					<label for="fecha">Fecha:</label>
+					<input type="date" id="fecha" name="fecha" required>
+					<button type="submit">Solicitar información</button>
+					<button type="button">Filtrar</button>
+				</form>
+			</div>
+		</section>
+		
+		<footer>
+			<p>Derechos reservados &copy; Agencia de Viajes XYZ</p>
+		</footer>
+	</main>
+	
+</body>
+</html>
