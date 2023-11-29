@@ -1,0 +1,122 @@
+
+
+.header {
+    border: 5px solid black;
+    background: url(fotoparis.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 200px;
+    color: white;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.nombre-empresa {
+    text-decoration: none;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    margin-left: 90px;
+}
+
+.menu {
+    /* border: 1px solid whitesmoke; */
+    display: flex;
+    justify-content: center;
+    margin-left: 400px;
+    gap: 100px;
+}
+
+.menu_links{
+    text-decoration: none;
+    color: black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+.contenedor {
+    /* border: 2px solid grey; */
+    background: url(fondoweb.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 1000px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.bio {
+    /* border: 1px solid white; */
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 200px;
+}
+
+
+.populares {
+    /* border: 5px solid white; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1000px;
+    height: 300px;
+    
+
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.jpg {
+    width: 175px;
+    height: 175px;
+
+
+}
+
+.texto {
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    /* margin: 100px; */
+    align-items: center;
+   
+    
+
+
+}
+
+
+.formulario {
+    /* border: 5px solid white; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around;
+    align-items: center; */
+    margin-bottom: 90px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+}
+
+/* para que el curso se cambie al pasar por encima del botón: */
+.pointer {
+    cursor: pointer;
+}
