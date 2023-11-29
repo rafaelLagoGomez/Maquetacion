@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="webCodenotch.css">
+    <title>WebCodenotch</title>
+</head>
+<body>
+    <main>
+        <header class="header">
+            <a class="logocode" href="./homeLanding.html">
+                <img src="./LogoCodenotch.png" alt="">
+            </a>
+            <nav class="menu">
+                <a class="menu_links" href="./cursos.html">Cursos</a>
+                <a class="menu_links" href="./equipo.html">Equipo</a>
+                <a class="menu_links" href="./contacto.html">Contacto</a> 
+            </nav>
+        </header>
+
+        <section class="container-contacto">
+            <div class="titulo-formulario">Déjanos tus datos y uno de nuestros asesores se pondrá en contacto contigo. Sin spam, sin compromiso.</div>
+            <div class="formulario">
+                <form action="/submit-form" method="POST">
+                    <label for="name" class="contacto-texto">Nombre:&nbsp;</label>
+                    <input type="text" id="name"><br><br>
+                  
+                    <label for="surname" class="contacto-texto">Apellidos:&nbsp;</label>
+                    <input type="text" id="surname"><br><br>
+                  
+                    <label for="phone" class="contacto-texto">Teléfono:&nbsp;</label>
+                    <input type="tel" id="phone"><br><br>
+                  
+                    <label for="email" class="contacto-texto">Correo electrónico:&nbsp;</label>
+                    <input type="email" id="email"><br><br>
+                  
+                    <label for="how" class="contacto-texto">¿Cómo nos conociste?:&nbsp;</label>
+                    <input type="text" id="how"><br><br>
+                  
+                    <label for="bootcamp" class="contacto-texto">Bootcamp en el que estás interesado:&nbsp;</label>
+                    <input type="text" id="bootcamp"><br><br>
+                  
+                    <label for="mode" class="contacto-texto">Modalidad:&nbsp;</label>
+                    <select id="mode">
+                      <option value="presencial">Presencial</option>
+                      <option value="online">Online</option>
+                    </select><br><br>
+                  
+                    <input class="boton-enviar" type="submit" value="ENVIAR">
+                    
+                </form>
+            </div>      
+        </section>
+        <footer class="redes">
+            <a class="instagram" href="https://www.instagram.com/codenotchmad/?hl=es">
+                <img src="logoinstagram.png" alt="">
+            </a>
+            <a class="facebook" href="https://www.facebook.com/codenotchMAD/?locale=es_ES">
+                <img src="logofacebook.jpg" alt="">
+            </a>
+            <a class="twitter" href="https://twitter.com/CodenotchMAD">
+                <img src="logotwitter.jpg" alt="">
+            </a>
+            <p class="copy" href="">Codenotch 2023 | All rights reserved</p>
+        </footer>
+    </main>
+</body>
+</html>

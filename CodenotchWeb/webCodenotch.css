@@ -1,0 +1,304 @@
+
+.header {
+    /* border: 1px solid red; */
+    width: 100vw;
+    height: 100px;
+    background-color: black;
+    /* background-color: #0000ff; */
+    color: white;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.logocode {
+    /* border: 1px solid red; */
+    margin: 200px;
+}
+
+.menu {
+    /* border: 1px solid red; */
+    margin: 200px;
+    display: flex;
+    gap: 150px;
+}
+
+.menu_links {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: url(fondoweb.png);
+    background-size: cover;
+    color: white;
+    /* display: flex;
+    flex-direction: column; */
+    /* justify-content: space-around;
+    align-items: center; */ 
+}
+
+.card {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+    
+}
+
+.texto1 {
+    /* border: solid red 1px; */
+    width: 550px;
+    height: 100px;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 120px;
+}
+
+.texto2 {
+    width: 550px;
+    height: 160px;
+    /* border: solid red 1px; */
+    color: #11f294;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.texto3 {
+    /* border: solid red 1px; */
+    width: 550px;
+    height: 25px;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    /* margin-top: 150px; */
+}
+
+.redes {
+    width: 100vw;
+    height: 60px;
+    background-color: black;
+    /* background-color: #0000ff; */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.instagram {
+    /* width: 10px;
+    height: 10px; */
+}
+
+.facebook {
+    /* width: 20px;
+    height: 20px; */
+}
+
+.copy {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-weight: 700; */
+}
+
+/* ---------------------------- */
+
+.container-cursos {
+    width: 100vw;
+    height: 100vh;
+    background: url(fondocursos.png);
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.curso1 {
+    width: 1000px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* align-items: center; */
+    margin-left: 130px;
+    margin-top: 40px;
+    /* border: solid red 1px; */   
+}
+
+.curso2 {
+    width: 1000px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* border: solid red 1px; */
+    margin-left: 130px;
+    margin-top: 40px;    
+}
+
+.curso3 {
+    width: 1000px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* align-items: center; */
+    margin-left: 130px;
+    margin-top: 40px;
+    /* border: solid red 1px; */
+}
+
+.titulo-curso {
+    width: 800px;
+    height: 50px;
+    /* border: solid red 1px; */
+    color: #11f294;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+
+.descripcion-curso{
+    /* border: solid red 1px; */
+    width: 1000px;;
+    height: 100px;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    /* margin-top: 120px; */
+}
+
+.info-curso {
+    /* border: solid red 1px; */
+    width: 600px;
+    height: 25px;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    /* font-weight: 700; */
+    /* margin-top: 150px; */
+}
+
+/* ------------- */
+
+.container-equipo {
+    width: 100vw;
+    height: 100vh;
+    background: url(fondoequipo.png);
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    /* gap: 35px; */
+}
+
+.tituloprofes {
+    color: #11f294;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 80px;
+    /* border: solid red 1px; */
+}
+
+.profes {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center;
+    align-items: center; */
+    /* border: solid red 1px; */
+    gap: 70px;
+}
+
+.perfil {
+    flex-direction: column;
+    justify-content: flex-start;
+    /* border: solid red 1px; */
+    /* gap: 30px; */
+}
+
+.foto {
+    width: 250px;
+    height: 250px;
+    /* border: solid red 1px; */
+}
+
+.texto-profes {
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    /* border: solid red 1px; */
+    margin-left: 50px; 
+}
+
+.texto-profes2 {
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    /* border: solid red 1px; */
+    margin-left: 50px;
+}
+
+
+/* -------------- */
+
+.container-contacto {
+    width: 100vw;
+    height: 100vh;
+    background: url(fondocontacto.png);
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 35px;
+}
+
+.titulo-formulario {
+    width: 800px;
+    height: 80px;
+    /* border: solid red 1px; */
+    color: #11f294;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 100px;
+}
+
+.formulario {
+    width: 500px;
+    height: 400px;
+    /* border: solid red 1px; */
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 250px;
+}
+
+.boton-enviar {
+    border: none;
+    border-radius: 4px;
+    background-color: black;
+    color: #11f294;
+    font-size: 13px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
