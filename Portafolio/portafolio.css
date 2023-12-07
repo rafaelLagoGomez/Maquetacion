@@ -1,0 +1,283 @@
+
+*{
+    padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+:root {
+    --primarycolor: hotpink;
+    --primaryfont: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header {
+    /* border: 1px solid red; */
+    background-color: transparent;
+    width: 100vw;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+
+.menu {
+    gap: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.menu_links {
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: var(--primaryfont);
+    font-size: 25px;
+}
+
+.menu_links:hover {
+    background-color: var(--primarycolor);
+}
+
+.container {
+    background: url(fondoconocimientos.png);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;  
+}
+
+.foto-bio {
+    border: 3px solid white;
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 80px;
+    transition: 0.75s;
+}
+
+.foto-bio:hover {
+    transform: scale(1.2);
+}
+
+.texto-bio {
+    border: 2px solid white;
+    border-radius: 15px;
+    background-color: var(--primarycolor);
+    opacity: 1.5;
+    color: white;
+    font-family: var(--primaryfont);
+    font-size: 20px;
+    text-align: justify;
+    margin-right: 150px;
+    padding: 15px;
+}
+
+.logowhatsapp {
+    width: 100vw;
+    height: 120px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+}
+
+.picwhatsapp {
+    margin-right: 45px;
+}
+
+.picwhatsapp:hover {
+    background-color: var(--primarycolor);
+}
+
+
+.footer {
+    border: 3px solid white;
+    width: 100vw;
+    height: 60px;
+    background-color: var(--primarycolor);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 190px;
+    background: url(fondoconocimientos.png);
+    background-size: cover;
+}
+
+/* ------------- */
+
+.container-tec {    
+    background: url(fondoBio.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.logostec {
+    border: 2px solid hotpink;
+    border-radius: 15px;
+    transition: 0.75s;
+}
+
+.logostec:hover {
+    transform: scale(1.1);
+}
+
+/* -------------- */
+
+.container-projects {
+    background: url(fondoprojects.png);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: center;
+    align-items: center; */
+    /* gap: 40px; */
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+
+
+.card1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.75s;
+}
+
+.card2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.75s;
+}
+
+.card3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.75s;
+}
+
+.card1:hover {
+    transform: translatex(30px);
+}
+
+.card2:hover {
+    transform: translateY(30px);
+}
+
+.card3:hover {
+    transform: translatex(-30px);
+}
+
+.texto-card {
+    border: 2px solid white;
+    background-color: var(--primarycolor);
+    margin-top: 50px;
+    border-radius: 5px;
+    font-size: 20px;   
+}
+
+.texto-card-info {
+    border: 2px solid white;
+    background-color: var(--primarycolor);
+    color: white;
+    font-family: var(--primaryfont);
+    font-size: 15px;
+    text-align: center;
+    margin: 70px;
+    border-radius: 15px;
+    padding: 5px;    
+}
+
+.foto1 {
+    border: 2px solid white;
+    background-color: var(--primarycolor);
+    /* margin-top: 20px; */
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+}
+
+.foto2 {
+    border: 2px solid white;
+    background-color: var(--primarycolor);
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+}
+
+.foto3 {
+    border: 2px solid white;
+    background-color: var(--primarycolor);
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+}
+
+
+/* ----------------- */
+
+.container-contacto {
+    background: url(fondocontacto.png);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.titulo-formulario {
+    color: white;
+    font-family: var(--primaryfont);
+    font-size: 20px;
+}
+
+
+.contacto-texto{
+    color: whitesmoke;
+    font-family: var(--primaryfont);
+    font-size: 23px;
+
+}
+
+.boton-enviar {
+    /* border: none; */
+    border-radius: 3px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.boton-enviar:hover {
+    background-color: var(--primarycolor);
+
+
+}
