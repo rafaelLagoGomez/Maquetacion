@@ -1,0 +1,39 @@
+
+.hijos {
+    display: flex;
+    justify-content: center;
+    min-height: 310px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr 2fr 1fr 2fr;
+    grid-template-rows: 2fr 1fr;
+}
+
+.A {
+    background-color: green;
+}
+
+.B {
+    background-color: black;
+    color: white;
+}
+
+.C {
+    background-color: green;
+}
+
+.D {
+    background-color: black;
+    color: white;
+}
+
+.E {
+    background-color: green;
+}
+
+.F {
+    background-color: black;
+    color: white;
+}

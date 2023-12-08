@@ -1,0 +1,111 @@
+
+.headerbox {
+    height: 90px;
+    display: grid;
+    grid-template-areas: "header header imagen";
+}
+
+.header {
+    grid-area: header;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.imagen {
+    grid-area: imagen;
+    background-color: darkred;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+
+
+.container {
+    height: 748px;
+    display: grid;
+    grid-template-areas: "asidebox contenidobox contenidobox";
+}
+
+.asidebox {
+    grid-area: asidebox;
+    background-color: burlywood;
+    display: grid;
+    grid-template-areas: "aside1" "vacio" "aside2";
+    padding: 15px;
+}
+
+.aside1 {
+    grid-area: aside1;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    color: brown;
+}
+
+.aside2 {
+    grid-area: aside2;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    color: brown;
+}
+
+
+
+.contenidobox {
+    grid-area: contenidobox;
+    background-color: chocolate;
+    display: grid;
+    grid-template-areas: "contenido" "texto";
+    padding: 15px;
+    gap: 10px;
+}
+
+
+.contenido {
+    grid-area: contenido;
+    border: solid 2px white;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 15px;
+
+}
+
+.texto {
+    grid-area: texto;
+    border: solid 2px white;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 15px;
+
+}
+
+
+
+
+.footer-contacto {
+    height: 90px;
+    display: grid;
+    grid-template-areas: "footer footer footer";
+}
+
+.footer {
+    grid-area: footer;
+    background-color: darkred;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    padding-top: 10px;
+}

@@ -1,0 +1,41 @@
+
+.hijos {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+    grid-template-rows: 465px 465px;
+}
+
+.A {
+    background-color: green;
+    color: white;
+}
+
+.B {
+    background-color: orange;
+    color: white;
+}
+
+.C {
+    background-color: orangered;
+    color: white;
+}
+
+.D {
+    background-color: red;
+    color: white;
+}
+
+.E {
+    background-color: blue;
+    color: white;
+}
+
+.F {
+    background-color: yellow;
+    color: white;
+}
