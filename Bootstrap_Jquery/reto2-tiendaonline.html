@@ -1,0 +1,175 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reto2-TiendaOnline</title>
+    <link rel="stylesheet" href="reto2-tiendaonline.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" >
+            <img src="nash!3.png" alt="">
+          </a>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="#">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">ULTIMAS LLEGADAS</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  CATEGORIAS
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">MUJER</a></li>
+                  <li><a class="dropdown-item" href="#">HOMBRE</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">SALED</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="carrito">
+                <a class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#exampleModal" type="submit">CARRITO</a>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container">
+        <div class="row" id="clothes-container">
+            <div class="card" style="width: 18rem;">
+                <img src="pantalones_tallealto.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title" id="name">Pantalón suelto gris</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                        content.</p>
+                    <p class="card-text" id="price">20€</p>
+                    <button class="btn btn-dark" onclick="addNewItem(`Pantalón suelto gris`, 20)">Añadir al carrito</button>
+                </div>
+            </div>
+            
+            <div class="card" style="width: 18rem;">
+                <img src="vestido_tunico.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Vestido Túnica</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                        content.</p>
+                    <p class="card-text">18€</p>
+                    <button class="btn btn-dark" onclick="addNewItem(`Vestido Túnica`, 18)">Añadir al carrito</button>
+                </div>
+            </div>
+            
+            <div class="card" style="width: 18rem;">
+                <img src="falda_print.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Falda Mid Print</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                        content.</p>
+                    <p class="card-text">12€</p>
+                    <button class="btn btn-dark" onclick="addNewItem(`Falda Mid Print`, 12)">Añadir al carrito</button>
+                </div>
+            </div>
+            
+            <div class="card" style="width: 18rem;">
+                <img src="cardigan_largo_rayas.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Cardigan Largo Rayas</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                        content.</p>
+                    <p class="card-text">22€</p>
+                    <button class="btn btn-dark" onclick="addNewItem(`Cardigan Largo Rayas`, 22)">Añadir al carrito</button>
+                </div>
+            </div>
+            
+            <div class="card" style="width: 18rem;">
+                <img src="falda_mini_zebra.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Falda Mini Zebra</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                        content.</p>
+                    <p class="card-text">19€</p>
+                    <button class="btn btn-dark" onclick="addNewItem(`Falda Mini Zebra`, 19)">Añadir al carrito</button>
+                </div>
+            </div>
+            
+            <div class="card" style="width: 18rem;">
+                <img src="mono_overol.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Mono Overol</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                        content.</p>
+                    <p class="card-text">29€</p>
+                    <button class="btn btn-dark" onclick="addNewItem(`Mono Overol`, 29)">Añadir al carrito</button>
+                </div>
+            </div>
+    
+            <div class="card" style="width: 18rem;">
+                <img src="vestido_jersey.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Jersey Dress</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                        content.</p>
+                    <p class="card-text">18€</p>
+                    <button class="btn btn-dark" onclick="addNewItem(`Jersey Dress`, 18)">Añadir al carrito</button>
+                </div>
+            </div>
+    
+            <div class="card" style="width: 18rem;">
+                <img src="pantalon_ancho.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Pantalón Ancho</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                        content.</p>
+                    <p class="card-text">22€</p>
+                    <button class="btn btn-dark" onclick="addNewItem(`Pantalón Ancho`, 22)">Añadir al carrito</button>
+                </div>
+            </div>
+
+            <!-- modal -->             
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Añadido a carrito</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <ul id="listacarrito"></ul>
+                            <p>Total: <span id="total"></span></p>                           
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <footer class="footer">
+                <div class="f1">
+                    <a class="textofooter" href="./reto2-tiendaonline.html">Contacto</a>
+                    <a class="textofooter" href="./reto2-tiendaonline.html">Facebook</a>
+                    <a class="textofooter" href="./reto2-tiendaonline.html">Instagram</a>
+                    <a class="textofooter" href="./reto2-tiendaonline.html">Twitter</a>
+                    <a class="textofooter" href="./reto2-tiendaonline.html">Ayuda</a>
+                    <a class="textofooter" href="./reto2-tiendaonline.html">Privacidad</a>
+                    <a class="textofooter" href="./reto2-tiendaonline.html">Configuración de cookies</a>  
+                </div>
+                <div>
+                    <p class="texto2footer">© 2023 Rafael Lago for Codenotch</p>
+                </div>
+            </footer>
+        </div>
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="reto2-tiendaonline.js"></script>
+</body>
+</html>
